@@ -46,6 +46,11 @@ export const useClasificaciones = async (view) => {
     username.classList = "table-item";
     username.innerHTML = clasification.username;
     table.appendChild(username);
+
+    const date = document.createElement("div");
+    date.classList = "table-item";
+    date.innerHTML = clasification.date;
+    table.appendChild(date);
   });
 
 

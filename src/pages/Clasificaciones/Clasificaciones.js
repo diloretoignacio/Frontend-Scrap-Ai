@@ -18,6 +18,7 @@ export const Clasificaciones = async () => {
             <div class="table-header">Confidence</div>
             <div class="table-header">Kg</div>
             <div class="table-header">Username</div>
+            <div class="table-header">Date</div>
         </div>
     `;     
 
